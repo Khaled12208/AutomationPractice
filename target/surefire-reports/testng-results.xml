@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-19T16:31:09 EET" name="Suite" finished-at="2020-09-19T16:32:52 EET" duration-ms="103041">
+    <groups>
+    </groups>
+    <test started-at="2020-09-19T16:31:09 EET" name="HomePageTest" finished-at="2020-09-19T16:31:24 EET" duration-ms="15600">
+      <class name="TestrRpository.HomePageTest">
+        <test-method is-config="true" signature="Browser_Init()[pri:0, instance:TestrRpository.HomePageTest@3bbc39f8]" started-at="2020-09-19T16:31:09 EET" name="Browser_Init" finished-at="2020-09-19T16:31:22 EET" duration-ms="13068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method signature="VerfiyNavigatioToAuthincaitonPage()[pri:0, instance:TestrRpository.HomePageTest@3bbc39f8]" started-at="2020-09-19T16:31:22 EET" name="VerfiyNavigatioToAuthincaitonPage" finished-at="2020-09-19T16:31:23 EET" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiyNavigatioToAuthincaitonPage -->
+        <test-method signature="VerfiyWindowsSize()[pri:0, instance:TestrRpository.HomePageTest@3bbc39f8]" started-at="2020-09-19T16:31:23 EET" name="VerfiyWindowsSize" finished-at="2020-09-19T16:31:24 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiyWindowsSize -->
+        <test-method is-config="true" signature="Browser_Terdown()[pri:0, instance:TestrRpository.HomePageTest@3bbc39f8]" started-at="2020-09-19T16:31:24 EET" name="Browser_Terdown" finished-at="2020-09-19T16:31:24 EET" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Terdown -->
+      </class> <!-- TestrRpository.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test started-at="2020-09-19T16:31:24 EET" name="AuthincaitonTests" finished-at="2020-09-19T16:31:57 EET" duration-ms="32969">
+      <class name="TestrRpository.AuthincaitonTests">
+        <test-method is-config="true" signature="Browser_Init()[pri:0, instance:TestrRpository.AuthincaitonTests@48524010]" started-at="2020-09-19T16:31:24 EET" name="Browser_Init" finished-at="2020-09-19T16:31:41 EET" duration-ms="16659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method signature="VerfiyCreatAccountBoxIsExist()[pri:0, instance:TestrRpository.AuthincaitonTests@48524010]" started-at="2020-09-19T16:31:41 EET" name="VerfiyCreatAccountBoxIsExist" finished-at="2020-09-19T16:31:44 EET" duration-ms="2868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiyCreatAccountBoxIsExist -->
+        <test-method signature="VerfiyLoginBoxIsExist()[pri:0, instance:TestrRpository.AuthincaitonTests@48524010]" started-at="2020-09-19T16:31:44 EET" name="VerfiyLoginBoxIsExist" finished-at="2020-09-19T16:31:44 EET" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiyLoginBoxIsExist -->
+        <test-method signature="VerfiyMandtoryEmailFiled()[pri:0, instance:TestrRpository.AuthincaitonTests@48524010]" started-at="2020-09-19T16:31:44 EET" name="VerfiyMandtoryEmailFiled" finished-at="2020-09-19T16:31:45 EET" depends-on-methods="TestrRpository.AuthincaitonTests.VerfiyCreatAccountBoxIsExist" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiyMandtoryEmailFiled -->
+        <test-method signature="VerfiyCreateaccountButton()[pri:0, instance:TestrRpository.AuthincaitonTests@48524010]" started-at="2020-09-19T16:31:45 EET" name="VerfiyCreateaccountButton" finished-at="2020-09-19T16:31:45 EET" depends-on-methods="TestrRpository.AuthincaitonTests.VerfiyMandtoryEmailFiled, TestrRpository.AuthincaitonTests.VerfiyCreatAccountBoxIsExist" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiyCreateaccountButton -->
+        <test-method signature="VerfiyLogintoRegistedAccount()[pri:0, instance:TestrRpository.AuthincaitonTests@48524010]" started-at="2020-09-19T16:31:45 EET" name="VerfiyLogintoRegistedAccount" finished-at="2020-09-19T16:31:57 EET" depends-on-methods="TestrRpository.AuthincaitonTests.VerfiyCreateaccountButton" duration-ms="11277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiyLogintoRegistedAccount -->
+        <test-method is-config="true" signature="Browser_Terdown()[pri:0, instance:TestrRpository.AuthincaitonTests@48524010]" started-at="2020-09-19T16:31:57 EET" name="Browser_Terdown" finished-at="2020-09-19T16:31:57 EET" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Terdown -->
+      </class> <!-- TestrRpository.AuthincaitonTests -->
+    </test> <!-- AuthincaitonTests -->
+    <test started-at="2020-09-19T16:31:57 EET" name="CreateAccountTests" finished-at="2020-09-19T16:32:18 EET" duration-ms="20998">
+      <class name="TestrRpository.CreateAccountTests">
+        <test-method is-config="true" signature="Browser_Init()[pri:0, instance:TestrRpository.CreateAccountTests@15761df8]" started-at="2020-09-19T16:31:57 EET" name="Browser_Init" finished-at="2020-09-19T16:32:09 EET" duration-ms="11970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method signature="validatEmailIsInsrted()[pri:0, instance:TestrRpository.CreateAccountTests@15761df8]" started-at="2020-09-19T16:32:09 EET" name="validatEmailIsInsrted" finished-at="2020-09-19T16:32:13 EET" duration-ms="3539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatEmailIsInsrted -->
+        <test-method signature="validateMandatoryFiled()[pri:0, instance:TestrRpository.CreateAccountTests@15761df8]" started-at="2020-09-19T16:32:13 EET" name="validateMandatoryFiled" finished-at="2020-09-19T16:32:14 EET" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMandatoryFiled -->
+        <test-method signature="validatePasswordFiledLimits()[pri:0, instance:TestrRpository.CreateAccountTests@15761df8]" started-at="2020-09-19T16:32:14 EET" name="validatePasswordFiledLimits" finished-at="2020-09-19T16:32:15 EET" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePasswordFiledLimits -->
+        <test-method signature="ValidateUserRegestration()[pri:0, instance:TestrRpository.CreateAccountTests@15761df8]" started-at="2020-09-19T16:32:15 EET" name="ValidateUserRegestration" finished-at="2020-09-19T16:32:18 EET" depends-on-methods="TestrRpository.CreateAccountTests.validatePasswordFiledLimits, TestrRpository.CreateAccountTests.validatEmailIsInsrted, TestrRpository.CreateAccountTests.validateMandatoryFiled" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserRegestration -->
+        <test-method is-config="true" signature="Browser_Terdown()[pri:0, instance:TestrRpository.CreateAccountTests@15761df8]" started-at="2020-09-19T16:32:18 EET" name="Browser_Terdown" finished-at="2020-09-19T16:32:18 EET" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Terdown -->
+      </class> <!-- TestrRpository.CreateAccountTests -->
+    </test> <!-- CreateAccountTests -->
+    <test started-at="2020-09-19T16:32:18 EET" name="ShoppingTest" finished-at="2020-09-19T16:32:52 EET" duration-ms="33373">
+      <class name="TestrRpository.ShoppingTest">
+        <test-method is-config="true" signature="Browser_Init()[pri:0, instance:TestrRpository.ShoppingTest@19d37183]" started-at="2020-09-19T16:32:18 EET" name="Browser_Init" finished-at="2020-09-19T16:32:30 EET" duration-ms="11841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method signature="VerfiyPlacingOrder()[pri:0, instance:TestrRpository.ShoppingTest@19d37183]" started-at="2020-09-19T16:32:30 EET" name="VerfiyPlacingOrder" finished-at="2020-09-19T16:32:51 EET" duration-ms="20832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfiyPlacingOrder -->
+        <test-method is-config="true" signature="Browser_Terdown()[pri:0, instance:TestrRpository.ShoppingTest@19d37183]" started-at="2020-09-19T16:32:51 EET" name="Browser_Terdown" finished-at="2020-09-19T16:32:52 EET" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Terdown -->
+      </class> <!-- TestrRpository.ShoppingTest -->
+    </test> <!-- ShoppingTest -->
+  </suite> <!-- Suite -->
+</testng-results>

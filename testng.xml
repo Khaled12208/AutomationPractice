@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+  <test name="HomePageTest" verbose="10" preserve-order="true" >
+    <classes>
+      <class name="TestrRpository.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="AuthincaitonTests" verbose="10" preserve-order="true">
+    <classes>
+      <class name="TestrRpository.AuthincaitonTests"/>
+    </classes>
+  </test> <!-- Test -->
+      <test name="CreateAccountTests" verbose="10" preserve-order="true">
+    <classes>
+      <class name="TestrRpository.CreateAccountTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="ShoppingTest" verbose="10" preserve-order="true">
+    <classes>
+      <class name="TestrRpository.ShoppingTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
